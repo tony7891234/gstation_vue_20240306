@@ -1,0 +1,28 @@
+{
+  "name": "usports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dayjs": "^1.9.7",
+    "moment": "^2.29.1",
+    "qrcodejs2": "0.0.2",
+    "qs": "^6.9.4",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.7",
+    "uview-ui": "^1.8.2",
+    "vue-clipboard2": "^0.3.1",
+    "vue-i18n": "^8.22.2",
+    "vue-luck-draw": "^3.4.11",
+    "vue-socket.io": "^3.0.10"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.1.3"
+  }
+}

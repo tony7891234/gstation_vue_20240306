@@ -1,0 +1,536 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"name": "home",
+			"params": {
+				"name": "home"
+			},
+			// "meta": {
+			// 	"requiresAuth": true
+			// },
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+        {
+			"path": "pages/language/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/auth/login",
+			"name": "login",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/auth/register",
+			"name": "register",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/grab/index",
+			"name": "grab",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/grab/detail",
+			"name": "grab-detail",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/order/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/account/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/withdrawal/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		
+		{
+			"path": "pages/recharge/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		
+		
+		{
+			"path": "pages/recharge/recharge1",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		
+		
+		
+		{
+			"path": "pages/recharge/recharge2",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/recharge/recharge3",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/lucky/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+
+		{
+			"path": "pages/invite/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/team/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},  {
+			"path": "pages/team/index1",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/financial/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/about/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/bindCard",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/profile",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/message",
+			"meta": {
+				"requiresAuth": true,
+				"enablePullDownRefresh": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/user/address",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/security",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pwd",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pwd2",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/detail",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/detail_pay",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/records/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		// 新增
+
+		//vip页面
+		{
+			"path": "pages/vip/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+		{
+			"path": "pages/introduce/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+		{
+			"path": "pages/problem/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/shop/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/account/service",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/withdrawal/bank",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/withdrawal/usdt",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/team/detail",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/fund/index",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		
+		{
+			"path": "pages/account/wallet",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		
+		{
+			"path": "pages/fund/record",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		
+		{
+			"path": "pages/fund/transfer",
+			"meta": {
+				"requiresAuth": true
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		
+		}
+		
+	    
+    ],
+	"tabBar": {
+		"color": "#7B7B7B",
+		"selectedColor": "#5C5FEF",
+		"backgroundColor": "#fff",
+		"borderStyle": "white",
+		"height": "60px",
+		"fontSize": "10px",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/casa.png",
+				"selectedIconPath": "static/casa_active.png",
+				"text": "%home%"
+			},
+			{
+				"pagePath": "pages/grab/index",
+				"iconPath": "static/tomar.png",
+				"selectedIconPath": "static/tomar_active.png",
+				"text": "%grab%"
+			},
+			{
+				"pagePath": "pages/vip/index",
+				"iconPath": "static/VIP.png",
+				"selectedIconPath": "static/VIP_active.png",
+				"text": "%vip%"
+			},
+			{
+				"pagePath": "pages/team/index",
+				"iconPath": "static/equipo.png",
+				"selectedIconPath": "static/equipo_active.png",
+				"text": "%team%"
+			},
+			{
+				"pagePath": "pages/account/index",
+				"iconPath": "static/cuenta.png",
+				"selectedIconPath": "static/cuenta_active.png",
+				"text": "%my%"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black", // linear-gradient(90deg,#b5590b,#ab6a1a,#b35d43,#c57644,#de6b44)
+		"navigationBarTitleText": "AVIVA",
+		"navigationBarBackgroundColor": "linear-gradient(90deg,#b5590b,#ab6a1a,#b35d43,#c57644,#de6b44)",
+		"backgroundColor": "#FFFFFF",
+		"app-plus": {
+			"bounce": "none"
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
